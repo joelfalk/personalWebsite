@@ -6,7 +6,7 @@ function AboutPage(props){
 
     return (
 
-        <div> 
+        <div id={props.id}>
             <Hero title={props.title}/>    
 
             <Content> </Content>
